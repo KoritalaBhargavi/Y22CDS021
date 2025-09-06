@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+.navbar{
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100vw;
+  background-color: beige;
+}
+.inter{
+  padding: 200px 100px;
+}
+a{
+  color: black;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.logo {
+  height: 60px;   
+  width: 300px;
+}
+.butt{
+  max-height: 100px;
+  width: 50px;
+  margin: 7px;
+  background-color: blue;
+  border-radius: 30px;
+}
+.butt:hover{
+  background-color: green;
+  }
+.butt a{
+  color: white;
+}
+  .scroller{
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+.img1{
+  width: 100vw;
+  height: 80vh;
+  margin-left: 10px;
+}
+.dogname{
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: beige;
+}
+.scrollpart{
+  background-color: beige;
+}
+.cards{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  background-color: lightcoral;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.cardimg{
+  margin-top: 50px;
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+.imgbutt{
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 0px;
+  align-self: center;
+  width: 100px;
+  height: 50px;
+}
+.imgbutt:hover{
+  background-color: lightgreen;
+}
+.form{
+  background-color: red;
+  padding: 2% 10%;
+  margin: 1% 30%;
+}
+.form p{
+  text-align: left;
+}
+.form button{
+  background-color: blue;
+  border-radius: 10px;
+  color:white;
+  margin: 10px;
+  padding: 10px 20px;
+}
+.form button:hover{
+  background-color: lightblue;
+}
+.item{
+  align-self: left;
+  padding: 5px 0px;
+  margin-left: 5px;
+}
+
+
+
+.footer{
+  padding: 10px 0px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+.customersection{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.cust{
+  margin: 10px 20px;
+  border-radius: 20px;
+  background-color: lightgray ;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+  color: blue;
+  font-family: Italic;
+}
